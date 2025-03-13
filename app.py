@@ -3,7 +3,7 @@ from transformers import AutoTokenizer, AutoModel
 import torch
 
 # 2. Set up your HuggingFace API key
-HF_API_KEY = ""
+HF_API_KEY = "Token"
 
 # 3. Function to convert text to vector embedding
 def text_to_embedding(text, model_name="sentence-transformers/all-MiniLM-L6-v2"):
